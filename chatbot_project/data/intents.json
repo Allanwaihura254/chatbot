@@ -1,0 +1,444 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi there",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "is anyone there",
+        "hi bot",
+        "greetings",
+        "hallo",
+        "sasa"
+      ],
+      "responses": [
+        "Hello! Welcome to student support. How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! I'm here to help with any questions about the institute.",
+        "Good day! Ask me anything about admissions, fees, exams or hostels.",
+        "Hello! How may I assist you today?"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "i have to go",
+        "talk to you later",
+        "catch you later",
+        "quit",
+        "exit",
+        "that's all thanks",
+        "bye bye"
+      ],
+      "responses": [
+        "Goodbye! All the best with your studies.",
+        "See you later! Feel free to come back anytime.",
+        "Bye! Don't hesitate to ask if you need anything else.",
+        "Take care! Good luck with your coursework.",
+        "Goodbye, and have a great day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "that helps a lot",
+        "thanks a lot",
+        "appreciate it",
+        "thank you so much",
+        "thanks for the help",
+        "much appreciated",
+        "asante",
+        "cheers"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Let me know if you need anything else.",
+        "Glad I could assist.",
+        "No problem at all!"
+      ]
+    },
+    {
+      "tag": "help_request",
+      "patterns": [
+        "can you help me",
+        "i need help",
+        "what can you do",
+        "how does this work",
+        "what do you know",
+        "help",
+        "i have a question",
+        "can you assist me",
+        "what topics can you answer",
+        "what are you able to help with"
+      ],
+      "responses": [
+        "I can help with admissions, fees, exams, results, hostels, transport, library hours and more. What do you need?",
+        "Sure, ask me about fees, course units, exam timetables, or student services.",
+        "I answer questions on school hours, admissions, fees, results and general student support.",
+        "Go ahead and ask your question — I'll do my best to answer.",
+        "I'm your student support assistant. Try asking about fees, exams, or hostel info."
+      ]
+    },
+    {
+      "tag": "hours_query",
+      "patterns": [
+        "what are your opening hours",
+        "when does the school open",
+        "what time do offices open",
+        "school operating hours",
+        "when is the institute open",
+        "office hours",
+        "what time does the school close",
+        "when can i visit the office",
+        "opening and closing time",
+        "what hours do you operate"
+      ],
+      "responses": [
+        "Our offices are open Monday to Friday, 8:00 AM to 5:00 PM.",
+        "We operate from 8 AM to 5 PM on weekdays.",
+        "School offices open at 8:00 AM and close at 5:00 PM, Monday through Friday.",
+        "Weekday hours are 8 AM to 5 PM.",
+        "You can visit us Monday to Friday between 8:00 AM and 5:00 PM."
+      ]
+    },
+    {
+      "tag": "hours_weekend",
+      "patterns": [
+        "what about weekends",
+        "are you open on saturday",
+        "do you open on sunday",
+        "weekend hours",
+        "is the office open on weekends",
+        "saturday opening time",
+        "what time on saturday",
+        "sunday hours",
+        "are you open on weekends too",
+        "weekend schedule"
+      ],
+      "responses": [
+        "On Saturdays we're open from 9:00 AM to 1:00 PM. We're closed on Sundays.",
+        "Saturday hours are 9 AM to 1 PM; we remain closed on Sundays.",
+        "Yes, half-day on Saturday: 9 AM to 1 PM. Closed Sundays.",
+        "We open briefly on Saturday mornings (9 AM to 1 PM) and stay closed on Sunday.",
+        "Saturday: 9 AM–1 PM. Sunday: closed."
+      ]
+    },
+    {
+      "tag": "fees_query",
+      "patterns": [
+        "how much are the fees",
+        "what is the tuition fee",
+        "how much do i pay per semester",
+        "school fees amount",
+        "what are the fee requirements",
+        "total fees for the diploma",
+        "fee structure",
+        "how much does the course cost",
+        "what is the fee for this term",
+        "tuition cost"
+      ],
+      "responses": [
+        "Fees vary by course. Please check the official fee structure on the notice board or bursar's office.",
+        "You can get the exact fee structure for your programme from the finance office.",
+        "Fee amounts depend on your course and year of study — the bursar's office has the current structure.",
+        "The finance office publishes the fee structure each semester; I'd recommend checking there for exact figures.",
+        "Tuition varies per programme. Visit the accounts office for the current breakdown."
+      ]
+    },
+    {
+      "tag": "fees_payment_methods",
+      "patterns": [
+        "how can i pay fees",
+        "what payment methods do you accept",
+        "can i pay fees via mpesa",
+        "how do i pay school fees",
+        "fee payment options",
+        "is bank transfer accepted for fees",
+        "mpesa paybill number for fees",
+        "ways to pay tuition",
+        "can i pay in installments",
+        "fee payment channels"
+      ],
+      "responses": [
+        "You can pay via M-Pesa Paybill, bank deposit, or directly at the accounts office.",
+        "We accept M-Pesa, bank transfer, and cash payments at the finance office.",
+        "Fees can be paid through M-Pesa Paybill or bank deposit — the paybill number is on your admission letter.",
+        "Payment options include M-Pesa, direct bank deposit, and installment plans approved by the bursar.",
+        "You may pay via M-Pesa or bank transfer; installment arrangements can be discussed with the accounts office."
+      ]
+    },
+    {
+      "tag": "admission_requirements",
+      "patterns": [
+        "what are the admission requirements",
+        "how do i join the institute",
+        "what qualifications do i need to enroll",
+        "admission criteria",
+        "requirements for diploma admission",
+        "how can i apply",
+        "what documents do i need for admission",
+        "entry requirements",
+        "minimum grade for admission",
+        "how do i get admitted"
+      ],
+      "responses": [
+        "You need a KCSE certificate with the minimum mean grade required for your chosen course, plus a copy of your ID and passport photos.",
+        "Admission requires your KCSE results slip/certificate, national ID copy, and passport-size photos submitted to the admissions office.",
+        "Minimum entry grades depend on the course — check with the admissions office for your specific programme.",
+        "Bring your KCSE certificate, ID, birth certificate and passport photos to the admissions office to begin the process.",
+        "Requirements typically include a KCSE certificate, ID copy and passport photos — the admissions office can confirm course-specific grades."
+      ]
+    },
+    {
+      "tag": "course_offered",
+      "patterns": [
+        "what courses do you offer",
+        "which programmes are available",
+        "do you offer a diploma in ai",
+        "list of courses",
+        "what can i study here",
+        "available programmes",
+        "do you have computer courses",
+        "what diplomas are offered",
+        "which certificate courses do you have",
+        "course options"
+      ],
+      "responses": [
+        "We offer diplomas and certificates in ICT, Artificial Intelligence, Business, Electrical Engineering and more.",
+        "Available programmes include IT-related diplomas, engineering courses, and business certificates — check the prospectus for the full list.",
+        "Yes, we offer an AI Diploma along with several other ICT and engineering programmes.",
+        "Our course catalogue covers ICT, AI, electrical and business programmes at certificate and diploma level.",
+        "You can find the full list of courses in the institute's prospectus or on the admissions notice board."
+      ]
+    },
+    {
+      "tag": "exam_timetable",
+      "patterns": [
+        "when are the exams",
+        "what is the exam timetable",
+        "when do exams start",
+        "exam schedule",
+        "when is the end of semester exam",
+        "exam dates",
+        "when will i sit my exams",
+        "is the timetable out",
+        "when does the exam period begin",
+        "final exam schedule"
+      ],
+      "responses": [
+        "Exam timetables are released by the exams office two weeks before the exam period.",
+        "Check the notice board or student portal for the official exam timetable once released.",
+        "The exams office publishes the schedule near the end of each semester — keep checking the portal.",
+        "Exam dates vary per semester; the exams office will post the timetable in advance.",
+        "You'll find the exact dates on the exam timetable posted by the exams office."
+      ]
+    },
+    {
+      "tag": "results_query",
+      "patterns": [
+        "how do i check my results",
+        "when will results be released",
+        "where can i see my exam results",
+        "results portal",
+        "how do i access my grades",
+        "when are results out",
+        "check my marks",
+        "results release date",
+        "how do i know if i passed",
+        "student portal results"
+      ],
+      "responses": [
+        "Results are usually posted on the student portal about three weeks after exams.",
+        "You can check your results by logging into the student portal with your admission number.",
+        "Results release dates are announced by the exams office; check the portal or notice board.",
+        "Log in to the student portal to view your grades once they're released.",
+        "Results typically come out a few weeks after exams — the portal will notify you."
+      ]
+    },
+    {
+      "tag": "unit_registration",
+      "patterns": [
+        "how do i register for units",
+        "unit registration process",
+        "when does unit registration open",
+        "how do i select my units",
+        "registration deadline",
+        "how to register for this semester",
+        "where do i register units",
+        "can i add or drop a unit",
+        "unit registration portal",
+        "semester registration steps"
+      ],
+      "responses": [
+        "Unit registration is done online through the student portal at the start of each semester.",
+        "Log into the student portal, select your units for the semester, and submit before the deadline.",
+        "Registration opens at the start of the semester; deadlines are posted on the notice board.",
+        "You can add or drop units within the first two weeks of the semester through the portal.",
+        "Visit the academic office if you have trouble registering units on the portal."
+      ]
+    },
+    {
+      "tag": "library_hours",
+      "patterns": [
+        "what time does the library open",
+        "library working hours",
+        "when does the library close",
+        "is the library open on weekends",
+        "library opening time",
+        "can i study in the library at night",
+        "library hours during exams",
+        "when can i borrow books",
+        "library schedule",
+        "is the library open today"
+      ],
+      "responses": [
+        "The library is open Monday to Friday, 8 AM to 8 PM, and Saturday 9 AM to 1 PM.",
+        "Library hours are 8 AM–8 PM on weekdays and a half-day on Saturday.",
+        "During exam periods the library extends its hours — check the library notice board for details.",
+        "You can borrow books any weekday between 8 AM and 8 PM.",
+        "The library opens at 8 AM and closes at 8 PM, Monday to Friday."
+      ]
+    },
+    {
+      "tag": "hostel_info",
+      "patterns": [
+        "do you have hostels",
+        "how much is hostel accommodation",
+        "is accommodation available",
+        "hostel booking process",
+        "where are the student hostels",
+        "how do i book a hostel room",
+        "hostel fees",
+        "is hostel accommodation guaranteed",
+        "how many students per room",
+        "hostel application"
+      ],
+      "responses": [
+        "Yes, hostel accommodation is available; apply through the student affairs office once admitted.",
+        "Hostel fees are charged per semester and vary by room type — check with student affairs for rates.",
+        "Rooms are usually shared by 2–4 students; book early as spaces are limited.",
+        "You can apply for a hostel room through the student affairs office after confirming admission.",
+        "Accommodation is available but limited, so early application is recommended."
+      ]
+    },
+    {
+      "tag": "transport_info",
+      "patterns": [
+        "is there school transport",
+        "do you offer bus service",
+        "how do i get to campus",
+        "transport options to school",
+        "is there a shuttle service",
+        "school bus schedule",
+        "how much is transport fare",
+        "does the institute provide transport",
+        "matatu routes to the institute",
+        "transport for students"
+      ],
+      "responses": [
+        "The institute does not run a dedicated bus, but several matatus pass near the main gate.",
+        "Public transport (matatus) serves the area around campus regularly.",
+        "There's no official school bus, but the campus is well served by local matatu routes.",
+        "Check with student affairs about any partner transport services for students.",
+        "Matatus running the main route stop close to the institute gate throughout the day."
+      ]
+    },
+    {
+      "tag": "ict_support",
+      "patterns": [
+        "i need ict support",
+        "my student portal isn't working",
+        "how do i reset my portal password",
+        "i can't log into the portal",
+        "wifi is not working",
+        "computer lab access",
+        "i forgot my student id password",
+        "portal login issue",
+        "internet connection problem",
+        "who do i contact for tech issues"
+      ],
+      "responses": [
+        "Visit the ICT department or email the helpdesk to reset your portal password.",
+        "For login issues, the ICT support office can reset your credentials — bring your student ID.",
+        "Wi-Fi issues should be reported to the ICT department in the main building.",
+        "The computer labs are open during office hours; ask the lab technician for access.",
+        "Contact ICT support at the helpdesk for any technical or portal-related issues."
+      ]
+    },
+    {
+      "tag": "internship_info",
+      "patterns": [
+        "how do i find an internship",
+        "does the school help with attachment",
+        "when should i do my industrial attachment",
+        "internship placement",
+        "how long is the attachment period",
+        "attachment requirements",
+        "does the institute organize internships",
+        "where can i do my industrial attachment",
+        "internship duration",
+        "attachment supervisor"
+      ],
+      "responses": [
+        "The institute has an industrial liaison office that helps place students for attachment.",
+        "Attachment is usually done after your second year and lasts about three months.",
+        "Visit the industrial liaison office for a list of partner companies offering attachment.",
+        "You'll need an attachment letter from the school before reporting to your host company.",
+        "The liaison office can guide you on requirements and help match you with a host organisation."
+      ]
+    },
+    {
+      "tag": "graduation_info",
+      "patterns": [
+        "when is graduation",
+        "graduation requirements",
+        "how do i clear for graduation",
+        "graduation ceremony date",
+        "do i need to clear fees before graduating",
+        "graduation gown collection",
+        "when will i graduate",
+        "graduation list",
+        "how do i get my certificate",
+        "clearance for graduation"
+      ],
+      "responses": [
+        "Graduation dates are announced by the academic office once results and clearance are finalised.",
+        "You must clear all fees and academic requirements before you can graduate.",
+        "Check the notice board or portal for the graduation clearance checklist.",
+        "Certificates are issued after successful clearance and the graduation ceremony.",
+        "Visit the academic office to confirm your clearance status ahead of graduation."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "i want to file a complaint",
+        "i have an issue with a lecturer",
+        "how do i report a problem",
+        "i'm not happy with the service",
+        "who do i talk to about a complaint",
+        "i want to raise a concern",
+        "there is a problem i need to report",
+        "how can i give feedback",
+        "i need to escalate an issue",
+        "complaint procedure"
+      ],
+      "responses": [
+        "You can file a formal complaint at the student affairs office or via the suggestion box.",
+        "Complaints can be submitted in writing to student affairs, who will follow up with you.",
+        "I'm sorry to hear that. Please raise it with the student affairs office so it can be addressed.",
+        "Feedback and complaints are welcome — the student affairs office handles these formally.",
+        "You can escalate serious concerns directly to the academic dean's office."
+      ]
+    }
+  ]
+}

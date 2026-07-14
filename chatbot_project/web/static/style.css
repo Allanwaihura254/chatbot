@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.app {
+  width: 100%;
+  max-width: 640px;
+  background: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 88vh;
+}
+
+.app-header {
+  background: #2e86ab;
+  color: white;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-header h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.lang-switch select {
+  padding: 4px 6px;
+  border-radius: 6px;
+  border: none;
+}
+
+.model-info {
+  font-size: 12px;
+  color: #dddddd;
+  padding: 6px 20px;
+  background: #222222;
+  border-bottom: 1px solid #e2e6ea;
+}
+
+.chat-window {
+  flex: 1;
+  padding: 16px 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #111111;
+}
+
+.msg {
+  max-width: 75%;
+  padding: 10px 14px;
+  border-radius: 14px;
+  line-height: 1.4;
+  font-size: 14px;
+  white-space: pre-wrap;
+}
+
+.msg.bot {
+  background: #2d2d2d;
+  color: #ffffff;
+  align-self: flex-start;
+  border-bottom-left-radius: 4px;
+}
+
+.msg.user {
+  background: #2e86ab;
+  color: white;
+  align-self: flex-end;
+  border-bottom-right-radius: 4px;
+}
+
+.msg .meta {
+  display: block;
+  font-size: 10px;
+  color: #bfbfbf;
+  margin-top: 4px;
+}
+
+.msg.user .meta {
+  color: #d8ecf7;
+}
+
+.chat-form {
+  display: flex;
+  gap: 8px;
+  padding: 14px 20px;
+  border-top: 1px solid #e2e6ea;
+  background: #1a1a1a;
+}
+
+#user-input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 8px;
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #2a2a2a;
+  color: #bbbbbb;
+  font-size: 14px;
+  font-size: 14px;
+}
+
+#send-btn, #reset-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#send-btn {
+  background: #2e86ab;
+  color: white;
+}
+
+#reset-btn {
+  background: #444;
+  color: white;
+}
+
+#send-btn:hover {
+  background: #256d8a;
+}
+
+#reset-btn:hover {
+  background: #ddd;
+}
