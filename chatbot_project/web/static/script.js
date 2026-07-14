@@ -8,7 +8,7 @@
 
 const UI_STRINGS = {
   en: {
-    title: "TVET Student Support Chatbot",
+    title: "ALLAN Student Support Chatbot",
     langLabel: "Language:",
     placeholder: "Type your message...",
     send: "Send",
